@@ -17,3 +17,4 @@
     kubectl create -f wordpress-deployment.yaml
 
 5. kubectl get services wordpress
+
