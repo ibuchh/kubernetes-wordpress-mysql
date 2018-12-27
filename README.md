@@ -15,8 +15,10 @@
 4. Create a WordPress Service and Deployment from the wordpress-deployment.yaml file:
 ```
     kubectl create -f wordpress-deployment.yaml
-
-5. kubectl get services wordpress
+```
+5. Get the wordpress service endpoint
+```
+    kubectl get services wordpress
 ```
 # Cleaning up
 ```
