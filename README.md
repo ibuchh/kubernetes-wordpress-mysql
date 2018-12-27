@@ -18,3 +18,13 @@
 
 5. kubectl get services wordpress
 
+# Cleaning up
+
+1. kubectl delete secret mysql-pass
+
+2. kubectl delete deployment -l app=wordpress
+
+3. kubectl delete service -l app=wordpress
+
+4. kubectl delete pvc -l app=wordpress
+
